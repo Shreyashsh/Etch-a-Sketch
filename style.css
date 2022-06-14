@@ -1,1 +1,23 @@
+body {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid black;
+}
+#dimensions {
+    width: 300px;
+    opacity: 0.7;
+}
+#mainContainer{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
 
